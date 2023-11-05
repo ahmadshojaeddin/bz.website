@@ -1,0 +1,33 @@
+*{
+    font-family: "ShabnamFD";
+}
+
+/*to decrease bootstrap navbar hight and font-size*/
+.navbar-nav > li > a {padding-top:1px !important; padding-bottom:1px !important;}
+.navbar {min-height:1px !important}
+
+/*to remove bootstrap navbar dropdown rounded-corners*/
+/* .nav .dropdown {
+    -webkit-border-radius: 0px 0px 0px 0px ;
+    -moz-border-radius: 0px 0px 0px 0px ;
+    border-radius: 0px 0px 0px 0px !important;
+    background-color: #ffcc11;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 2px;
+    width: 160px;
+} */
+
+/* .nav .navbar-nav .dropdown .dropdown-item {
+    border-radius: 100px !important;
+} */
+
+* {
+    border-radius: 0px !important;
+}
+
+/*to remove dropdown arrow in navbar*/
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
